@@ -3,3 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.App {
+  display: flex;
+  padding: 2rem;
+}
+
+.game {
+  width: 35rem;
+  height: 35rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game img {
+  width: 4.375rem;
+  height: 4.375rem;
+}
