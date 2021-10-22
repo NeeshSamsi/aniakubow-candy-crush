@@ -32,6 +32,11 @@ const App = () => {
     createBoard();
   }, []);
 
+  useEffect(() => {
+    const timer = setInterval(() => {}, 100);
+    checkForColumnThree();
+  }, [checkForColumnThree]);
+
   console.log(currentColorArrangement);
 
   return (
